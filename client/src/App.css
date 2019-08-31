@@ -1,0 +1,242 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  background: rgb(229, 187, 75);
+  background: -moz-linear-gradient(
+    180deg,
+    rgba(229, 187, 75, 1) 0%,
+    rgba(166, 109, 33, 1) 50%,
+    rgba(135, 71, 12, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    180deg,
+    rgba(229, 187, 75, 1) 0%,
+    rgba(166, 109, 33, 1) 50%,
+    rgba(135, 71, 12, 1) 100%
+  );
+  background: linear-gradient(
+    180deg,
+    rgba(229, 187, 75, 1) 0%,
+    rgba(166, 109, 33, 1) 50%,
+    rgba(135, 71, 12, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e5bb4b",endColorstr="#87470c",GradientType=1);
+}
+
+.s-font {
+  font-family: 'Pacifico', cursive;
+}
+
+.xy-center {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.w-bg {
+  background-color: #fff;
+}
+
+.p-color {
+  color: #e5bb4b;
+}
+
+.p-bg {
+  background-color: #e5bb4b;
+}
+
+.p-b {
+  background: #e5bb4b;
+}
+
+.s-color {
+  color: #cc8a4d;
+}
+
+.s-bg {
+  background-color: #cc8a4d;
+}
+
+.w-color {
+  color: #fff;
+}
+
+.b-white {
+  background: #fff;
+}
+
+.rounded-15 {
+  border-radius: 15px;
+}
+
+.maxw-420px {
+  max-width: 420px;
+}
+
+.l-color {
+  color: #ffe59d;
+}
+
+.no-joint-border .input-group-text {
+  border-left: none;
+  background-color: initial;
+  color: #ced4da;
+}
+
+.no-joint-border .form-control {
+  border-right: none;
+  background-color: initial;
+  color: #cc8a4d;
+}
+
+.no-joint-border .form-control:focus {
+  border-color: #e5bb4b;
+  box-shadow: none;
+}
+
+.no-joint-border .form-control:focus + .input-group-append .input-group-text {
+  color: #e5bb4b;
+  border-color: #e5bb4b;
+}
+
+.no-joint-border input::placeholder {
+  color: #ced4da;
+}
+
+.g-color {
+  color: #ced4da;
+}
+
+.b-color {
+  color: rgb(120, 120, 120);
+}
+
+.green-color {
+  color: #5bceae;
+}
+.blue-color {
+  color: #3796f6;
+}
+.red-color {
+  color: #ec547a;
+}
+
+.scrolling-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.scrolling-wrapper .wrapper-item {
+  flex: 0 0 auto;
+}
+
+.wh-50px {
+  width: 50px;
+  height: 50px;
+}
+
+.wh-30px {
+  width: 30px;
+  height: 30px;
+}
+
+.friend-group div {
+  margin-right: -10px;
+  border: 2px solid #fff;
+}
+
+.box-shadow {
+  box-shadow: 2px 2px 10px #cc8a4d;
+}
+
+.l-bg-wrapper {
+  background-color: #fffcf4;
+  display: flex;
+  color: rgb(120, 120, 120);
+}
+
+.d-flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-self: flex-start;
+}
+
+.flex-break {
+  flex-basis: 100%;
+  height: 0;
+  align-self: flex-start;
+}
+
+/* dashboard side bar*/
+.dashboard-side-bar {
+  background-color: #fff;
+  padding: 5px 0 5px 0;
+  min-height: 100vh;
+}
+.dashboard-side-bar .border-right-line {
+  border-right: 2px solid #ced4da4d !important;
+  height: 100%;
+}
+.dashboard-side-bar .logo {
+  margin-bottom: 10vh;
+  padding-top: 5px;
+}
+.dashboard-side-bar .icon {
+  font-size: 1.5rem;
+  padding: 1.5vh 0 1.5vh 0;
+  color: rgb(120, 120, 120);
+}
+.dashboard-side-bar .icon i {
+  padding-left: 15px;
+  padding-right: 15px;
+  border-left: 2px solid #fff !important;
+  border-right: 2px solid #fff !important;
+}
+.dashboard-side-bar .icon.active {
+  border-top: 2px solid #ced4da4d !important;
+  border-bottom: 2px solid #ced4da4d !important;
+  background-color: #fffcf4;
+  color: #e5bb4b;
+}
+.dashboard-side-bar .icon.active i {
+  border-left: 2px solid #e5bb4b !important;
+}
+
+/*top nav dashboard*/
+.top-nav {
+  background-color: #fff;
+  align-self: flex-start;
+  padding: 10px;
+  width: 100%;
+  min-height: 60px;
+  display: flex;
+  border-bottom: 2px solid #ced4da4d !important;
+  color: rgb(120, 120, 120);
+}
+
+/*dashboard content*/
+.dashboard-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: flex-start;
+  padding: 15px 50px;
+}
+
+/*dashboard data*/
+.dashboard-data {
+  margin-top: 15px;
+}
+.dashboard-data .account {
+  background-color: #fff;
+  border: 1px solid #ced4da4d !important;
+  border-radius: 5px;
+  padding: 20px 0 20px 0;
+}
+.dashboard-data .account div {
+  padding: 0 30px 0 30px;
+}
