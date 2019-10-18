@@ -157,6 +157,8 @@ body {
   background-color: #fffcf4;
   display: flex;
   color: rgb(120, 120, 120);
+  min-width: 100%;
+  min-height: 100vh;
 }
 
 .d-flex-wrap {
@@ -177,10 +179,13 @@ body {
   background-color: #fff;
   padding: 5px 0 5px 0;
   min-height: 100vh;
+  position: fixed;
+  z-index: 1000;
 }
 .dashboard-side-bar .border-right-line {
   border-right: 2px solid #ced4da4d !important;
-  height: 100%;
+  height: calc(100vh - 70px);
+  margin-top: 60px;
 }
 .dashboard-side-bar .logo {
   margin-bottom: 10vh;
@@ -217,6 +222,8 @@ body {
   display: flex;
   border-bottom: 2px solid #ced4da4d !important;
   color: rgb(120, 120, 120);
+  position: fixed;
+  z-index: 1000;
 }
 
 /*dashboard content*/
@@ -224,12 +231,17 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-self: flex-start;
-  padding: 15px 50px;
+  padding: 75px 50px 15px 114px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*dashboard data*/
 .dashboard-data {
   margin-top: 15px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }
 .dashboard-data .account {
   background-color: #fff;
@@ -239,4 +251,42 @@ body {
 }
 .dashboard-data .account div {
   padding: 0 30px 0 30px;
+}
+.dashboard-data .dashboard-events {
+  margin-left: 50px;
+}
+.dashboard-data .dashboard-events .event-wrapper {
+  background-color: #fff;
+  border: 1px solid #ced4da4d !important;
+  border-radius: 5px;
+  padding: 20px 0 20px 0;
+}
+.dashboard-data .dashboard-events .event-wrapper .event .mr-auto,
+.event .ml-auto {
+  padding: 0 30px 0 30px;
+}
+hr.flex-break {
+  width: 90%;
+  border-top: 1px solid #ced4da4d !important;
+}
+.dashboard-data .activity-wrapper {
+  margin-left: 50px;
+}
+.dashboard-data .activity-summary {
+  background-color: #fff;
+  border: 1px solid #ced4da4d !important;
+  border-radius: 5px;
+  padding: 20px 0 20px 0;
+}
+.activity-summary #circle,
+.activity-summary .d-flex-wrap {
+  padding: 0 30px 0 30px;
+}
+#circle2 {
+  position: relative;
+  text-align: center;
+  top: -134px;
+}
+.activity-summary canvas {
+  transform: rotate(90deg);
 }
