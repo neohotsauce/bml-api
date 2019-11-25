@@ -58,6 +58,7 @@ const Dashboard = props => {
                       </small>
                     </div>
                   </div>
+<<<<<<< HEAD
                   <div className="flex-break" />
                   <div id="circle" className="w-100 text-center">
                     <div id="circle2">
@@ -66,6 +67,11 @@ const Dashboard = props => {
                         <small>Income</small>
                       </div>
                     </div>
+=======
+                  <div className='flex-break' />
+                  <div id="circle" className="w-100 text-center">
+                    <div id="circle2" />
+>>>>>>> dec9994815a45cbf0139836ab5ae7ed4046962cb
                   </div>
                 </div>
               </div>

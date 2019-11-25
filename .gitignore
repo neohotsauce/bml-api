@@ -1,2 +1,6 @@
 node_modules/
+<<<<<<< HEAD
 configgg/default.json
+=======
+config/default.json
+>>>>>>> dec9994815a45cbf0139836ab5ae7ed4046962cb

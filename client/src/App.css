@@ -287,12 +287,15 @@ hr.flex-break {
   text-align: center;
   top: -134px;
 }
+<<<<<<< HEAD
 
 #circle2 #percentile-text {
   position: relative;
   top: -77px;
 }
 
+=======
+>>>>>>> dec9994815a45cbf0139836ab5ae7ed4046962cb
 .activity-summary canvas {
   transform: rotate(90deg);
 }
